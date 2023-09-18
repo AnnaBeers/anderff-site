@@ -204,7 +204,6 @@ blockquote {
 	font-family: $helvetica;
 	position: relative;
 	border: 3px	$black solid;
-	border-top: none;
 	border-right: none;
 	padding: 10px;
 	top: 0px;
@@ -480,9 +479,9 @@ blockquote {
 	color: $white;
 	display: table;
 	height: 32px;
-	width: 50%;
+	width: 60%;
 	top: 38%;
-	left: 25%;
+	left: 20%;
 	z-index: 1;
 	opacity: 1;
 	-webkit-transition: opacity 300ms;
@@ -535,7 +534,7 @@ blockquote {
 .recentblock {
 	padding: 30px 0px 5px 0px;
 	width: 100%;
-	margin: 0 5%;
+	margin: 0;
 	color: $white;
 	font-family: $helvetica;
 	font-size: 22px;
@@ -552,6 +551,9 @@ blockquote {
 .recentblock li {
 	font-size: 22px;	
 	line-height: 38px;
+	border-bottom: solid 1px $white;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 .recent-category {	
