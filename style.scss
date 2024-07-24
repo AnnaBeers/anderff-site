@@ -184,13 +184,13 @@ blockquote {
 .contentblock {
 	margin-top: 40px;
 	padding: 0;
-	border: $white 3px solid;
-	color: $white;
+	border: $black 3px solid;
+	color: $black;
 	font-family: $georgia;
 	font-size: 15px;
 	line-height: 22px;
 	text-align: left;
-	background-color: white;
+	background-color: $white;
 }
 
 /*.contentblock img{
@@ -276,7 +276,7 @@ blockquote {
 	margin: 15px 0px 30px 0px;
 	border-bottom: 3px solid;
 	line-height: 58px;
-	color: $white;
+	color: $black;
 
 	@include smallview{
 		font-size: 36px;
