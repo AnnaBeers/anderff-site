@@ -14,27 +14,3 @@ layout: default
     <div class="homewrap">
       <div class="homeblock"><a href="{{ site.baseurl }}/portfolio"><div class="homecaption"><span>Publications</span></div><img src="{{ site.baseurl }}/resources/portfolio_pic.png", alt="A network visualization, excerpted from an article too zoomed out to read titled Disinformation Crackdown."></a></div><div class="homespacer"></div><div class="homeblock"><a href="{{ site.baseurl }}/blog"><div class="homecaption"><span>Blog</span></div><img src="{{ site.baseurl }}/resources/blog_pic2.png", alt="A row of books from my shelf."></a></div>
     </div>
-
-    <div class="recentblock">
-    Recent posts<br />
-    <ul>
-
-
-{% for post in site.posts limit:20 %}
-{% if post.categories contains 'blog' or post.categories contains 'portfolio' %}
-    
-<a href="{{ site.baseurl }}{{post.url}}">
-    <div class="projectblock">
-        <div class="projecticon"><img src="{{ site.baseurl }}{{post.icon}}"></div>
-        <div class="projectdesc">
-            <div class="projecthead">{{post.title}}</div>
-            <div class="projecttext"><br />{{post.blurb}}</div>
-        </div>
-    </div>
-</a>
-
-{% endif %}
-{% endfor %}
-
-    </ul>
-    </div>
