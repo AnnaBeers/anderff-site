@@ -19,7 +19,7 @@ html {
 }
 
 body {
-	background-color: $black;
+	background-color: $white;
 	margin-top: 0px;
 	height: 100%;
 	width: 100%;
@@ -53,7 +53,7 @@ blockquote {
 	margin-right: auto;
 	width: 30%;
 	min-width: 570px;
-	background-color: $black;
+	background-color: $white;
 
 	@include smallview {
 		// Unsure about margins, RETURN
@@ -63,13 +63,13 @@ blockquote {
 		margin-right: auto;
 		width: 90%;
 		min-width: 0px;
-		background-color: $black;
+		background-color: $white;
 	}
 
 }
 
 #contentwrap a {
-	color: $white;
+	color: $black;
 	text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ blockquote {
 // Header, Footer and ToolBar
 
 #headerwrap {
-	color: $white;
+	color: $black;
 	font-family: $helvetica;
 	font-size: 22px;
 	line-height: 18px;
@@ -97,7 +97,7 @@ blockquote {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom: $white 3px solid;
+	border-bottom: $black 3px solid;
 
 	@include smallview{
 		margin-top: 20px;
@@ -105,7 +105,7 @@ blockquote {
 }
 
 .titleblock {
-	border: $white 3px solid;
+	border: $black 3px solid;
 	text-align: center;
 	padding: 15px 0px 25px 0px;
 	font-size: 70px;
@@ -113,7 +113,7 @@ blockquote {
 }
 
 .sub_titleblock {
-	border: $white 3px solid;
+	border: $black 3px solid;
 	text-align: center;
 	padding: 15px 0px 20px 0px;
 	font-size: 30px;
@@ -124,8 +124,8 @@ blockquote {
 	font-family: $helvetica;
 	display: table;
 	line-height: 0px;
-	border: $white 3px solid;
-	border-top: $black 0px solid;
+	border: $black 3px solid;
+	border-top: $white 0px solid;
 	border-right: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -133,7 +133,7 @@ blockquote {
 
 
 	@include smallview  {
-		border-right: $white 3px solid;
+		border-right: $black 3px solid;
 	}
 }
 
@@ -149,8 +149,8 @@ blockquote {
 	line-height: 36px;
 	padding: 0px 0px;
 	display: table-cell;
-	border-right: $white 3px solid;
-	color: $white;
+	border-right: $black 3px solid;
+	color: $black;
     min-width: 43.5px;
     text-align: center;
 }
@@ -158,14 +158,14 @@ blockquote {
 .toolbaritem a {
 	display: block;
 	padding: 0px 5px;
-	color: $white;
+	color: $black;
 	text-decoration: none;
 }
 
 .contactbutton{
 
 	@include smallview  {
-		border-top: $white 3px solid;
+		border-top: $black 3px solid;
 	}
 
 }
@@ -184,8 +184,8 @@ blockquote {
 .contentblock {
 	margin-top: 40px;
 	padding: 0;
-	border: $black 3px solid;
-	color: $black;
+	border: $white 3px solid;
+	color: $white;
 	font-family: $georgia;
 	font-size: 15px;
 	line-height: 22px;
@@ -203,7 +203,7 @@ blockquote {
 .contentdate {
 	font-family: $helvetica;
 	position: relative;
-	border: 3px	$black solid;
+	border: 3px	$white solid;
 	border-right: none;
 	padding: 10px;
 	top: 0px;
@@ -276,7 +276,7 @@ blockquote {
 	margin: 15px 0px 30px 0px;
 	border-bottom: 3px solid;
 	line-height: 58px;
-	color: $black;
+	color: $white;
 
 	@include smallview{
 		font-size: 36px;
@@ -357,7 +357,7 @@ blockquote {
 
 .toc {
 	list-style-type:disc;
-    border: 3px solid $black;
+    border: 3px solid $white;
     width: 100%;
     max-width: 400px;
     padding: 10px 15px;
@@ -383,7 +383,7 @@ blockquote {
 // Page 404
 
 #page404 {
-	color: $white;
+	color: $black;
 	font-family: $helvetica;
 	font-size: 18px;
 	margin: 100px 20%;	
@@ -411,7 +411,7 @@ blockquote {
 }
 
 .homespacer {
-	background-color: $black;
+	background-color: $white;
 	min-width: 5%;
 	margin: 0;
 	padding: 0;
@@ -426,8 +426,8 @@ blockquote {
 }
 
 .homeblock {
-	border: 3px $white solid;
-	color: $white;
+	border: 3px $black solid;
+	color: $black;
 	font-family: Helvetica, sans-serif;
 	font-size: 18px;
 	margin: 0px;
@@ -475,8 +475,8 @@ blockquote {
 	font-size: 22px;
 	position: absolute;
 	background: rgba(0,0,0,1.0);
-	border: solid 3px $white;
-	color: $white;
+	border: solid 3px $black;
+	color: $black;
 	display: table;
 	height: 32px;
 	width: 60%;
@@ -508,7 +508,7 @@ blockquote {
 
 .homecaption a {
 	text-decoration: none;	
-	color: $white	
+	color: $black	
 }
 
 .homeblock:hover .homecaption {
@@ -535,7 +535,7 @@ blockquote {
 	padding: 30px 0px 5px 0px;
 	width: 100%;
 	margin: 0;
-	color: $white;
+	color: $black;
 	font-family: $helvetica;
 	font-size: 22px;
 	line-height: 18px;
@@ -551,15 +551,15 @@ blockquote {
 .recentblock li {
 	font-size: 22px;	
 	line-height: 38px;
-	border-bottom: solid 1px $white;
+	border-bottom: solid 1px $black;
 	padding-bottom: 5px;
 	padding-top: 5px;
 }
 
 .recent-category {	
     display: inline;
-    color: $black;
-    background-color: $white;
+    color: $white;
+    background-color: $black;
     padding: 6px;
     min-width: 50px;
 }
@@ -582,7 +582,7 @@ blockquote {
 	padding: 50px 0px 25px 0px;
 	width: 100%;
 	margin: 0;
-	color: $white;
+	color: $black;
 	font-family: $helvetica;
 	font-size: 24px;
 	line-height: 28px;
@@ -601,7 +601,7 @@ blockquote {
 .bioblock {
 	padding: 10px 30px 20px 40px;
 	margin: 0 auto;
-	color: $white;
+	color: $black;
 	font-family: $helvetica;
 	font-size: 18px;
 	line-height: 26px;
@@ -647,7 +647,7 @@ blockquote {
 	padding: 40px 30px 10px 30px;
 	width: 100%;
 	margin: 0 auto;
-	color: $white;
+	color: $black;
 	font-family: $helvetica;
 	font-size: 18px;
 	line-height: 26px;
@@ -689,7 +689,7 @@ blockquote {
 	margin: 15px 5px 30px 5px;
 	border-bottom: 3px solid;
 	line-height: 42px;
-	color: $black;
+	color: $white;
 
 	@include smallview{
 		padding: 55px 20px 25px 30px;
@@ -706,9 +706,9 @@ blockquote {
 	text-decoration: none;
 	font-size: 24px;
 	margin-bottom: 10px;
-	border-bottom: 3px solid $white;
+	border-bottom: 3px solid $black;
 	line-height: 28px;
-	color: $white;
+	color: $black;
 	padding-bottom: 10px;
 }
 
@@ -716,16 +716,16 @@ blockquote {
 
 .projectblock {
 	line-height: 18px;
-	border: 3px $white solid;
+	border: 3px $black solid;
 	padding: 0;
 	height: 180px;
 	width: 513px; /* This is also rough */
 	margin: 30px 0 0 0;
-	color: $black;
+	color: $white;
 	font-family: $helvetica;
 	font-size: 18px;
 	position: relative;
-	background-color: $white;
+	background-color: $black;
 
 /*	@include smallview {
 		height: 200px;
@@ -748,7 +748,7 @@ blockquote {
 	width: 30%;	
 	overflow: hidden;
 	height: 100%;
-	border-right: 3px $white solid;
+	border-right: 3px $black solid;
 	display: inline-block;
 	margin: 0px;
 	padding: 0px;
@@ -825,11 +825,11 @@ blockquote {
 }
 
 .project-page-title {
-	color: $white;
+	color: $black;
 	width: 125px;
 	padding: 10px;
 	margin: 0 auto;
-	border: $white 3px solid;
+	border: $black 3px solid;
 	text-align: center;
 
 }
