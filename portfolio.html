@@ -59,19 +59,4 @@ Anna Beers, Ken Chang, James Brown, Elizabeth Gerstner, Bruce Rosen, and Jayashr
 Anna Beers, James Brown, Ken Chang, J. Peter Campbell, Susan Ostmo, Michael F. Chiang, and Jayashree Kalpathy-Cramer. 2018. <a href="http://arxiv.org/abs/1805.03144">High-resolution medical image synthesis using progressively grown generative adversarial networks</a>. arXiv:1805.03144 [cs].
 <br /><br />
 
-<div class="portfoliohead2">Portfolio Items</div>
-{% for post in site.categories.portfolio %}
-
-<a href="{{ site.baseurl }}{{post.url}}">
-    <div class="projectblock">
-        <div class="projecticon"><img src="{{ site.baseurl }}{{post.icon}}"></div>
-        <div class="projectdesc">
-            <div class="projecthead">{{post.title}}</div>
-            <div class="projecttext"><br />{{post.blurb}}</div>
-        </div>
-    </div>
-</a>
-
-{% endfor %}
-
 </div>
