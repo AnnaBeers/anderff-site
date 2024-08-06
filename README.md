@@ -1,2 +1,2 @@
 # anna-beers-site
-Static personal website - why not?
+Fiddling with a static professonal website.
