@@ -100,9 +100,6 @@ I end up using a dataset of pages from the archived research works of the <a hre
 It was early days for the PGGAN when I worked on this project. Unlike today, Github did not contain <a href=”https://github.com/search?q=pggan”>endless functioning reimplementations</a> of Karras et al.'s code, so it seemed like I might have had to use the original. This will make you feel old, but Karras' original code was written in <a href="http://deeplearning.net/software/theano/"><em>Theano</em></a>, which I had not yet used and had no intention of trying to figure out. I was saved by <a href="https://github.com/zhangqianhui">Jichao Zhang</a>, a student at Shandong University <a href="https://scholar.google.com/citations?user=SPEECTIAAAAJ&hl=en">working on GANs</a>. He had mocked up a version in TensorFlow, which I forked.
 <br /><br />
 
-Zhang's implementation was complicated. I have long held that people who code in TensorFlow for long enough (e.g. me) develop an irreversible brain-sickness that permanently and negatively affects the way they architect both their code and their thoughts (but hey, maybe <a href="https://twitter.com/kchonyc/status/1179391606321029120">TensorFlow 2</a> will solve that!). For example, in Zhang's implementation, you had to instantiate the entire PGGAN at full-size at each training level, explicitly select the reduced portion of weights you wanted to train for that resolution of the GAN, and then craft de novo cost functions at each image resolution. This non-intuitive training method, compared with the even spookier looking code required to implement it, was probably one of the bigger barriers to sharing my GAN work with my colleagues down the line. Lesson learned! Rearchitect your code if you want to share it with people.
-<br /><br />
-
 <div class='content-fullwidth'>
 <img style="max-width:700px" src="{{ site.baseurl }}/resources/blog/2019-09-11-deepzine/code_example.png" alt=""{{ site.baseurl }}/>
 </div>
